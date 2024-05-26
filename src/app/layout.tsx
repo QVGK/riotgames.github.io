@@ -12,6 +12,7 @@ const interFont = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "Riot Games | Open Source",
     description: "Riot Games' Open Source GitHub Organization.",
+    themeColor: "#EB0029",
 };
 
 // Layout
