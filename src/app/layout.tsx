@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 
 // CSS
-import "./globals.css";
+import "@/css/globals.css";
 
 // Fonts
 import { Inter } from "next/font/google";
