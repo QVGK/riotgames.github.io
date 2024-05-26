@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    basePath: "/riotgames.github.io",
-};
+const nextConfig = {};
 
 export default nextConfig;
