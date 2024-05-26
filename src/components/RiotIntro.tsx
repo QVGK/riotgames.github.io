@@ -9,10 +9,13 @@ export default function RiotIntro() {
     return (
         <motion.div
             animate={{
-                y: -320,
+                opacity: 0,
+                transitionEnd: {
+                    display: "none",
+                },
             }}
             transition={{
-                delay: 3,
+                delay: 4,
                 duration: 1,
             }}
             className="flex mt-[42vh] justify-center items-center mx-2 my-2 select-none"
@@ -28,7 +31,7 @@ export default function RiotIntro() {
                     }}
                     transition={{
                         delay: 1,
-                        duration: 0.2,
+                        duration: 0.1,
                         type: "tween",
                     }}
                 >

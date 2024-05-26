@@ -1,5 +1,5 @@
 // Type Definitions
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
 // CSS
 import "@/css/globals.css";
@@ -12,6 +12,10 @@ const interFont = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "Riot Games | Open Source",
     description: "Riot Games' Open Source GitHub Organization.",
+};
+
+// View Port
+export const viewport: Viewport = {
     themeColor: "#EB0029",
 };
 
